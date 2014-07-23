@@ -1,0 +1,144 @@
+{
+    "schema_version": "2.0",
+
+    // Packages can be specified with a simple URL to a GitHub or BitBucket
+    // repository, but details can be overridden for every field. It is also
+    // possible not utilize GitHub or BitBucket at all, but just to host your
+    // packages on any server with an SSL certificate.
+    "packages": [
+
+        // This is what most packages should aim to model.
+        //
+        // The majority of the information about a package ("name",
+        // "description", "author") are all pulled from the GitHub (or
+        // BitBucket) repository info.
+        //
+        // If the word "sublime" exists in the repository name, the name can
+        // be overridden by the "name" key.
+        //
+        // A release is created from the the tag that is the highest semantic
+        // versioning version number in the list of tags.
+
+        // A release MUST contain a "sublime_text" version selector, use "*"
+        // for all versions. If you do not specify a release, it is defaulted
+        // to "*". See below for more detauls.
+        {
+            "name": "Vtex Snippets",
+            "details": "https://github.com/ricardodantas/Vtex-Snippets",
+            "releases": [{
+                "sublime_text": "*",
+                "details": "https://github.com/ricardodantas/Vtex-Snippets/tags"
+            }]
+        },
+
+
+        // Pull most details from GitHub, releases from master branch. This
+        // form is discouraged because users will upgrade to every single
+        // commit you make to master.
+        {
+            "details": "https://github.com/ricardodantas/Vtex-Snippets"
+        },
+
+
+        // Use a custom name instead of just the URL slug
+        {
+            "name": "Vtex Snippets",
+            "details": "https://github.com/ricardodantas/Vtex-Snippets",
+            "author": "Ricardo Dantas"
+        },
+
+
+        // It is possible to provide the URL to a readme file. This URL should
+        // be to the raw source of the file, not rendered HTML. GitHub and
+        // BitBucket repositories will automatically provide these.
+        //
+        // The following extensions will be rendered:
+        //
+        // .markdown, .mdown, .mkd, .md
+        // .texttile
+        // .creole
+        // .rst
+        //
+        // All others are treated as plaintext.
+        {
+            "details": "https://github.com/ricardodantas/Vtex-Snippets",
+            "readme": "https://raw.githubusercontent.com/ricardodantas/Vtex-Snippets/master/README.md"
+        },
+
+        // If a package has a public bug tracker, the URL should be included
+        // via the "issues" key. Both GitHub and BitBucket repositories will
+        // automatically provide this if they have issues enabled.
+        {
+            "details": "https://github.com/ricardodantas/Vtex-Snippets",
+            "issues": "https://github.com/ricardodantas/Vtex-Snippets/issues"
+        },
+
+
+
+        // Packages can be labelled for the purpose of creating a folksonomy
+        // so users may more easily find relevant packages. Labels should be
+        // all lower case and should use spaces instead of _ or - to separate
+        // words.
+        //
+        // Some suggested labels are listed below, however, anything can be
+        // used as a label:
+        //
+        // auto-complete
+        // browser integration
+        // build system
+        // code navigation
+        // code sharing
+        // color scheme
+        // deprecated
+        // diff/merge
+        // editor emulation
+        // file creation
+        // file navigation
+        // formatting
+        // ftp
+        // language syntax
+        // linting
+        // minification
+        // search
+        // snippets
+        // terminal/shell/repl
+        // testing
+        // text manipulation
+        // text navigation
+        // theme
+        // todo
+        // vcs
+        {
+            "details": "https://github.com/ricardodantas/Vtex-Snippets",
+            "labels": ["snippets"]
+        },
+
+        // If you don't use a "details" key for a "releases" entry, you need
+        // to specify the "version", "url" and "date" manually. Because this
+        // requires an update of the repository file for each release it is
+        // not allowed in the default repository
+        // (wbond/package_control_channel).
+        {
+            "details": "https://github.com/ricardodantas/Vtex-Snippets",
+            "releases": [{
+                // The version number needs to be a semantic version
+                // number per http://semver.org 2.x.x
+                "version": "1.0.0",
+
+                // The URL needs to be a zip file containing the package.
+                // It is permissible for the zip file to contain a single
+                // root folder with any name. All file will be extracted
+                // out of this single root folder. This allows zip files
+                // from GitHub and BitBucket to be used a sources.
+                "url": "https://github.com/ricardodantas/Vtex-Snippets/archive/master.zip",
+
+                // The date MUST be in the form "YYYY-MM-DD HH:MM:SS" and
+                // SHOULD be UTC
+                "date": "2014-07-23 20:12:41",
+
+                // The obligatory version selector
+                "sublime_text": "*"
+            }]
+        }
+    ]
+}
