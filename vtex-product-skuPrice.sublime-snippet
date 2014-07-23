@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:skuPrice/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Preço de, Preço por, Parcelamento e Economia de</description>
+</snippet>

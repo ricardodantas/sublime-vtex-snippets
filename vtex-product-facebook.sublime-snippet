@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:facebookLike />]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Botão de "Curtir" do Facebook.</description>
+</snippet>

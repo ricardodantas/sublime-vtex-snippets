@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:ProductImage zoom="on"/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Imagem principal do produto com thumbs</description>
+</snippet>

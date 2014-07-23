@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:miniCart/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Geral]  Controle de carrinho utilizado no header.</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:AmountItemsInCart />]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Geral] Total de produtos inseridos no carrinho de compras.</description>
+</snippet>

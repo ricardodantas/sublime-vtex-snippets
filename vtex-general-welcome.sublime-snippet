@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:welcomeMessage/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Geral] Mensagem de Boas Vindas</description>
+</snippet>

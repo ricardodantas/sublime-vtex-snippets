@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:BuyButton/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Botão comprar.</description>
+</snippet>
+
+<snippet>
+    <content><![CDATA[<vtex.cmc:AmountItemsInCart />]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Geral] mini cart.</description>
+</snippet>

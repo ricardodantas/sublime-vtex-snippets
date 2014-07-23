@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:searchNavigator/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [BUSCA] Menu/Filtro de Busca.</description>
+</snippet>

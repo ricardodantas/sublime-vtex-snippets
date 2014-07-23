@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex:contentPlaceHolder id="ColecaoQVCT" />]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Prateleira “Quem viu comprou também”</description>
+</snippet>

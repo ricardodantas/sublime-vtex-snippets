@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:skuReference/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Cód. de Referência do Sku</description>
+</snippet>

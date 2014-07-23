@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex:contentPlaceHolder id="${1:nome do placeholder}" />]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Geral] Placeholder.</description>
+</snippet>

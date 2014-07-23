@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:ProductDescription/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Descrição do produto</description>
+</snippet>

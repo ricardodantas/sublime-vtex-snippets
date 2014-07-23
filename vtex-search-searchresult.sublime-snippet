@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:searchResult layout="LAYOUT_ID" itemCount="10" columnCount="4" />]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [BUSCA] Resultado da busca de produtos.</description>
+</snippet>

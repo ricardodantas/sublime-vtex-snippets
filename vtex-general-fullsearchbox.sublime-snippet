@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<vtex.cmc:fullTextSearchBox/>]]></content>
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Geral] full search box.</description>
+</snippet>

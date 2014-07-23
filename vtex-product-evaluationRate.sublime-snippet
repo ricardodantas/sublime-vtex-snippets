@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<vtex.cmc:evaluationRate/>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vtex.</tabTrigger>
+    <description>[Vtex] [Produto] Avaliação geral </description>
+</snippet>
