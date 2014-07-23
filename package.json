@@ -1,0 +1,22 @@
+RawParsed
+{
+  "name": "Vtex-Snippets",
+  "version": "1.0.0",
+  "description": "Vtex snippets for Sublime Text",
+  "main": "Vtex-Snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardodantas/Vtex-Snippets.git"
+  },
+  "keywords": [
+    "sublime",
+    "text",
+    "snippets"
+  ],
+  "author": "Ricardo Dantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardodantas/Vtex-Snippets/issues"
+  },
+  "homepage": "https://github.com/ricardodantas/Vtex-Snippets"
+}
